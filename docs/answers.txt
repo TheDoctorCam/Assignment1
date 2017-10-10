@@ -1,0 +1,40 @@
+(a) 	camerons-MacBook-Air:docs Cameron$ git push https://github.com/TheDoctorCam/Assignment1
+	Counting objects: 4, done.
+	Delta compression using up to 4 threads.
+	Compressing objects: 100% (3/3), done.
+	Writing objects: 100% (4/4), 516 bytes | 0 bytes/s, done.
+	Total 4 (delta 1), reused 0 (delta 0)
+	remote: Resolving deltas: 100% (1/1), completed with 1 local object.
+	To https://github.com/TheDoctorCam/Assignment1
+  		 3af53ff..7c51277  master -> master
+
+(b) 	Thus far, there have been 8 commits done to the repository. 
+
+(c)	The file ".gitignore" was last modified on September 27th, 2017 at 16:31:42.
+	This was found using "git log .gitignore"
+
+(d)	These are the following IDs of the commits used to merge the changes from the
+	branch "development" to the branch "master":
+		7c51277533bcb935b3e63f0a7e1e13dc1eaf0f13
+		3af53ff71a194495bea7aeb2767fc1a518683535
+		fbdbe9391ec1ce71f145df10738f17f8d336b597
+		36a8e55e4bbdd171ab57d979e1a802d740f2db9b
+		cb30d72a3d94c108f393c163a35c1cc9bf18ffca
+
+(e) 	Two reasons for using branched in a Git repository are the ability to keep
+	unstable code from being commited to the master and it also allows a feature's
+	history to be cleaned up before merging it with the main branch.
+
+(f)	git status displats the state of the working directory and the staging area while git log displays the commit history.
+
+(g)	git log Weapon.h
+
+(h)	git log -s "file"
+
+(i)	Inheritance is an object taking properties from an existing class, typically with more specific classes
+	taking properties from a more generic class.
+	
+	Polymorphism is a function that can applied to more than one argument, like in C++ with Virtual Functions.
+	
+	Encapsulation is the creation of new classes by combining structure and behavior, and restricting access
+	to implementation details.
