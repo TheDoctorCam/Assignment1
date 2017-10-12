@@ -8,14 +8,14 @@
 
 
  #include "CrazyRandomSword.h"
- #include <math.h> /* floor function */
+ #include <math.h> /* floor(), fmod() */
 
 
- int random_num = floor(rand() % 100 + 10);
+ int random_num = floor(fmod(rand(), 100+10));
 
  double CrazyRandomSword::hit(double armor)
  {
-	double random_armor = floor(rand() % armor/2.0);
+	int  random_armor = floor(fmod(rand(), armor/2));
 	double damage = hitPoints - random_armor;
 	if (damage < 0) return 0;
 	
