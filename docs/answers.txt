@@ -38,3 +38,9 @@
 	
 	Encapsulation is the creation of new classes by combining structure and behavior, and restricting access
 	to implementation details.
+
+
+
+
+7.	The RoleGame prototype is using polymorphism through the virtual destructor in each weapon child class and also
+	encapsulation through the weapon class.
